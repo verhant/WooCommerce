@@ -1,0 +1,241 @@
+# Italian translation for Verhant DPP
+# Copyright (C) 2024 Verhant
+# This file is distributed under the same license as the Verhant DPP package.
+# Verhant <support@verhant.com>, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: Verhant DPP 1.0.0\n"
+"Report-Msgid-Bugs-To: https://verhant.com/support\n"
+"POT-Creation-Date: 2024-01-01 00:00:00+00:00\n"
+"PO-Revision-Date: 2024-01-01 00:00:00+00:00\n"
+"Last-Translator: Verhant <support@verhant.com>\n"
+"Language-Team: Verhant <support@verhant.com>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Verhant DPP 1.0.0\n"
+"X-Domain: verhant-dpp\n"
+
+#: verhant-dpp.php
+msgid "%s requires WooCommerce to be installed and activated."
+msgstr "%s richiede che WooCommerce sia installato e attivato."
+
+#: admin/settings-page.php
+msgid "Verhant DPP \xe2\x80\x94 Settings"
+msgstr "Verhant DPP \xe2\x80\x94 Impostazioni"
+
+#: verhant-dpp.php
+msgid "Verhant DPP"
+msgstr "Verhant DPP"
+
+#: verhant-dpp.php
+msgid "Verhant Sync"
+msgstr "Verhant Sync"
+
+#: admin/sync-page.php
+msgid "Verhant DPP \xe2\x80\x94 Sync"
+msgstr "Verhant DPP \xe2\x80\x94 Sincronizzazione"
+
+#: admin/settings-page.php
+msgid "You do not have permission to access this page."
+msgstr "Non hai il permesso di accedere a questa pagina."
+
+#: admin/settings-page.php
+msgid "Settings saved."
+msgstr "Impostazioni salvate."
+
+#: admin/settings-page.php
+#: admin/sync-page.php
+msgid "Validating..."
+msgstr "Verifica in corso..."
+
+#: admin/sync-page.php
+msgid "Importing products..."
+msgstr "Importazione prodotti in corso..."
+
+#: admin/sync-page.php
+msgid "Exporting DPP data..."
+msgstr "Esportazione dati DPP in corso..."
+
+#: admin/sync-page.php
+msgid "Success!"
+msgstr "Operazione completata!"
+
+#: admin/settings-page.php
+#: admin/sync-page.php
+msgid "An error occurred."
+msgstr "Si \xc3\xa8 verificato un errore."
+
+#: admin/settings-page.php
+msgid "Connected as"
+msgstr "Connesso come"
+
+#: admin/settings-page.php
+msgid "Plan"
+msgstr "Piano"
+
+#: admin/sync-page.php
+msgid "imported"
+msgstr "importati"
+
+#: admin/sync-page.php
+msgid "updated"
+msgstr "aggiornati"
+
+#: admin/sync-page.php
+msgid "errors"
+msgstr "errori"
+
+#: admin/sync-page.php
+msgid "products updated with DPP links"
+msgstr "prodotti aggiornati con link DPP"
+
+#: admin/sync-page.php
+msgid "skipped"
+msgstr "ignorati"
+
+#: verhant-dpp.php
+msgid "Verhant DPP: Please <a href=\"%s\">configure your API token</a> to start generating Digital Product Passports."
+msgstr "Verhant DPP: <a href=\"%s\">Configura il tuo token API</a> per iniziare a generare i Passaporti Digitali dei Prodotti."
+
+#: includes/class-verhant-api.php
+msgid "Permission denied."
+msgstr "Accesso negato."
+
+#: includes/class-verhant-api.php
+msgid "API token is not configured."
+msgstr "Il token API non \xc3\xa8 configurato."
+
+#: includes/class-verhant-api.php
+msgid "No DPP link found for this SKU."
+msgstr "Nessun link DPP trovato per questo SKU."
+
+#: includes/class-verhant-api.php
+msgid "Unknown API error."
+msgstr "Errore API sconosciuto."
+
+#: includes/class-verhant-api.php
+msgid "Verhant API error (%1$d): %2$s"
+msgstr "Errore API Verhant (%1$d): %2$s"
+
+#: includes/class-verhant-api.php
+msgid "Invalid response from Verhant API."
+msgstr "Risposta non valida dall'API Verhant."
+
+#: includes/class-verhant-sync.php
+msgid "No published products found."
+msgstr "Nessun prodotto pubblicato trovato."
+
+#: includes/class-verhant-product.php
+msgid "Digital Product Passport"
+msgstr "Passaporto Digitale del Prodotto"
+
+#: includes/class-verhant-product.php
+msgid "ESPR compliant"
+msgstr "Conforme ESPR"
+
+#: includes/class-verhant-product.php
+msgid "View Digital Product Passport"
+msgstr "Visualizza il Passaporto Digitale del Prodotto"
+
+#: includes/class-verhant-product.php
+msgid "DPP"
+msgstr "DPP"
+
+#: includes/class-verhant-product.php
+msgid "Generated"
+msgstr "Generato"
+
+#: includes/class-verhant-product.php
+msgid "Pending"
+msgstr "In attesa"
+
+#: includes/class-verhant-product.php
+msgid "Not synced"
+msgstr "Non sincronizzato"
+
+#: admin/settings-page.php
+msgid "API Connection"
+msgstr "Connessione API"
+
+#: admin/settings-page.php
+msgid "API Token"
+msgstr "Token API"
+
+#: admin/settings-page.php
+msgid "Find your API token at <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">verhant.com/settings/api</a>."
+msgstr "Trova il tuo token API su <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">verhant.com/settings/api</a>."
+
+#: admin/settings-page.php
+msgid "Auto-publish DPP"
+msgstr "Pubblica automaticamente il DPP"
+
+#: admin/settings-page.php
+msgid "Automatically display DPP badges on product pages when available."
+msgstr "Mostra automaticamente i badge DPP nelle pagine prodotto quando disponibili."
+
+#: admin/settings-page.php
+msgid "Save Settings"
+msgstr "Salva impostazioni"
+
+#: admin/settings-page.php
+msgid "Verify Connection"
+msgstr "Verifica connessione"
+
+#: admin/settings-page.php
+msgid "Status"
+msgstr "Stato"
+
+#: admin/settings-page.php
+msgid "Last synchronization"
+msgstr "Ultima sincronizzazione"
+
+#: admin/settings-page.php
+msgid "Never"
+msgstr "Mai"
+
+#: admin/settings-page.php
+msgid "Products synced"
+msgstr "Prodotti sincronizzati"
+
+#: admin/settings-page.php
+msgid "Open Verhant Dashboard"
+msgstr "Apri il pannello Verhant"
+
+#: admin/sync-page.php
+msgid "Verhant DPP \xe2\x80\x94 Synchronization"
+msgstr "Verhant DPP \xe2\x80\x94 Sincronizzazione"
+
+#: admin/sync-page.php
+msgid "Import Products to Verhant"
+msgstr "Importa prodotti su Verhant"
+
+#: admin/sync-page.php
+msgid "Import your WooCommerce catalog to Verhant to generate Digital Product Passports for your products."
+msgstr "Importa il tuo catalogo WooCommerce su Verhant per generare i Passaporti Digitali dei Prodotti."
+
+#: admin/sync-page.php
+msgid "Start Import"
+msgstr "Avvia importazione"
+
+#: admin/sync-page.php
+msgid "Export DPP Data to WooCommerce"
+msgstr "Esporta dati DPP su WooCommerce"
+
+#: admin/sync-page.php
+msgid "Download DPP links generated by Verhant and automatically publish them on your product pages."
+msgstr "Scarica i link DPP generati da Verhant e pubblicali automaticamente nelle tue pagine prodotto."
+
+#: admin/sync-page.php
+msgid "Start Export"
+msgstr "Avvia esportazione"
+
+#: admin/sync-page.php
+msgid "Automatic Synchronization"
+msgstr "Sincronizzazione automatica"
+
+#: admin/sync-page.php
+msgid "Automatically sync when you save a WooCommerce product."
+msgstr "Sincronizza automaticamente quando salvi un prodotto WooCommerce."
